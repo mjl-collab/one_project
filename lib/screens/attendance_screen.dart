@@ -134,9 +134,11 @@ class _AttendancePageState extends State<AttendancePageScreen> {
                                   ? const LinearGradient(colors: <Color>[
                                       Color(0xFF42A5F5),
                                       Color.fromARGB(255, 27, 131, 235),
+                                       Color.fromARGB(255, 27, 131, 235),
                                     ])
                                   : const LinearGradient(colors: <Color>[
                                       Color.fromARGB(255, 245, 66, 66),
+                                          Color.fromARGB(255, 235, 27, 27),
                                       Color.fromARGB(255, 235, 27, 27),
                                     ])),
                           child: Column(
@@ -392,7 +394,7 @@ class _AttendancePageState extends State<AttendancePageScreen> {
                 //                     )
                 //                   ],
                 //                 ),
-                //               ],
+                //               ],s
                 //             ),
                 //           ],
                 //         )),
